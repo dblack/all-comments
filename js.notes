@@ -1,0 +1,5 @@
+s = document.querySelectorAll('span')
+s.filter((x) => x.innerText.contains('Most relevant'))[0].click()
+document.querySelectorAll('span').forEach(
+    (e) => { if(e.innerText.contains("oldest")) { e.click() }})
+
